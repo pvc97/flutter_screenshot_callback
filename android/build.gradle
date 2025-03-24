@@ -26,6 +26,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "com.flutter.moum.screenshot_callback"
+    
     compileSdkVersion 33
 
     defaultConfig {
